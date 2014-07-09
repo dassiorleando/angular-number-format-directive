@@ -1,0 +1,25 @@
+{
+  "name": "Number Format Directive",
+  "version": "0.0.1",
+  "authors": [
+    "Cesar Perez <cesar.alberto.perez@gmail.com>"
+  ],
+  "description": "AngularJS directive to format numeric inputs",
+  "main": "src/number-format-directive.js",
+  "keywords": [
+    "angularjs",
+    "directive",
+    "number"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.19"
+  }
+}

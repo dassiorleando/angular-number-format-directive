@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" ng-app="cpc.numberFormat">
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+</head>
+<body>
+
+<p>
+    <input type="text" cpc-number-format="" ng-model="number"/>
+
+    <br/>
+
+    Number value: {{number}}
+</p>
+
+<p>
+    <input type="text" cpc-number-format="" decimals="3" ng-model="number2"/>
+
+    <br/>
+
+    Number value: {{number2}}
+</p>
+
+<script src="bower_components/accounting/accounting.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="src/number-format-directive.js"></script>
+</body>
+</html>
