@@ -64,7 +64,7 @@
                     element.on('focus', makeEventHandler(element, ngModel, unformat, decimals));
 
                     element.on('$destroy', function () {
-                        element.off('change blur');
+                        element.off('change blur focus');
                     });
                 }
             };
