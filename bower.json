@@ -20,6 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.2.19"
+    "angular": "~1.2.19",
+    "accounting": "~0.3.2"
   }
 }
