@@ -1,0 +1,27 @@
+{
+  "name": "number-format-directive",
+  "version": "0.0.1",
+  "description": "number-format-directive",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cesarp/angular-number-format-directive.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "Cesar Perez <cesar.alberto.perez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesarp/angular-number-format-directive/issues"
+  },
+  "homepage": "https://github.com/cesarp/number-format-directive",
+  "devDependencies": {
+    "karma": "^0.12.17"
+  }
+}
