@@ -1,5 +1,5 @@
 {
-  "name": "number-format-directive",
+  "name": "Number Format Directive",
   "version": "0.0.1",
   "authors": [
     "Cesar Perez <cesar.alberto.perez@gmail.com>"
@@ -20,7 +20,8 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.2.19"
+    "angular": "~1.2.19",
+    "accounting": "~0.3.2"
   },
   "devDependencies": {
     "angular-mocks": "~1.2.13"
